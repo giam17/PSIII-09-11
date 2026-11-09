@@ -12,7 +12,7 @@ permissions:
 
 jobs:
   test_app:
-    name: FastAPI - 2 pruebas por tipo
+    name: pruebas python
     runs-on: ubuntu-latest
     steps:
       - name: checkout del codigo
@@ -39,7 +39,7 @@ jobs:
           path: reportes/*.xml
 
   test_express:
-    name: Express mascotas - 1 prueba por tipo
+    name: pruebas express
     runs-on: ubuntu-latest
     defaults:
       run:
